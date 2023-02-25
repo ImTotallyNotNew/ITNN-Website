@@ -6,3 +6,20 @@ body {
     padding: 0px;
     overflow-x: hidden;
 }
+
+.Header {
+
+}
+
+
+
+.Sub-Heading {
+    text-decoration: underline;
+}
+
+.ProfilePicture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
