@@ -1,5 +1,8 @@
 body {
     background-color: #181818;
+    background-image: 
+    linear-gradient(45deg, #8b8b3c 25%, #181818 25% 50%,
+    grey 50% 75%, #4572c7 75%);
     color: white;
     text-align: center;
     margin: 0px;
@@ -10,6 +13,7 @@ body {
 
 .Header {
     font-size: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
 .ProfilePicture img{
@@ -21,6 +25,7 @@ body {
 
 .About-Me_Sub-Heading {
     font-size: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
 .About-Me_Text {
@@ -30,6 +35,7 @@ body {
 
 .Working_Sub-Heading {
     font-size: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
 .Working_Text {
@@ -45,27 +51,20 @@ ul {
 
 .TIL_Sub-Heading {
     font-size: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
 
 .SocialMedia_Sub-Heading {
     font-size: 20px;
+    -webkit-text-stroke: 2px black;
 }
 
-.btn-Socialmedia {
-	width: 100%;
-	height: 100px;
-	float: left;
-	position:relative; 
-	font-size: 40px;
-}
-
-
-.buttonTwitter {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
-.buttonYoutube {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
-.buttonTwitch {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
-.buttonSteam {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
-.buttonGithub {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
+.buttonTwitter {width: 100px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
+.buttonYoutube {width: 100px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
+.buttonTwitch {width: 100px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
+.buttonSteam {width: 100px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
+.buttonGithub {width: 100px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
 
 .buttonTwitter:hover{
 	background-color: #000000;
