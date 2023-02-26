@@ -61,11 +61,11 @@ ul {
 }
 
 
-.buttonTwitter {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
-.buttonYoutube {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
-.buttonTwitch {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
-.buttonSteam {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
-.buttonGithub {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
+.buttonTwitter {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
+.buttonYoutube {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
+.buttonTwitch {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
+.buttonSteam {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
+.buttonGithub {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 70%;}
 
 .buttonTwitter:hover{
 	background-color: #000000;
