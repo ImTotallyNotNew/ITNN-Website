@@ -21,23 +21,36 @@ body {
 
 .About-Me_Sub-Heading {
     font-size: 20px;
-    text-decoration: underline;
 }
 
 .About-Me_Text {
     font-size: 20px;
+    margin: 0px 100px 0px 100px;
 }
 
 .Working_Sub-Heading {
-    text-decoration: underline;
+    font-size: 20px;
+}
+
+.Working_Text {
+    font-size: 20px;
+    margin: 0px 100px 0px 100px;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.TIL_Sub-Heading {
+    font-size: 20px;
 }
 
 
 .SocialMedia_Sub-Heading {
-    text-decoration: underline;
+    font-size: 20px;
 }
-
-
 
 .btn-Socialmedia {
 	width: 100%;
@@ -48,10 +61,11 @@ body {
 }
 
 
-.buttonTwitter {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
-.buttonYoutube {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
-.buttonTwitch {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
-.buttonSteam {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
+.buttonTwitter {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
+.buttonYoutube {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
+.buttonTwitch {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
+.buttonSteam {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
+.buttonGithub {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;border-radius: 50%;}
 
 .buttonTwitter:hover{
 	background-color: #000000;
@@ -69,6 +83,11 @@ body {
 }
 	
 .buttonSteam:hover{
+	background-color: #000000;
+	color: white;
+}
+
+.buttonGithub:hover{
 	background-color: #000000;
 	color: white;
 }
