@@ -5,16 +5,11 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    font-family: "Lucida Console", "Courier New", "monospace";
 }
 
 .Header {
-
-}
-
-
-
-.Sub-Heading {
-    text-decoration: underline;
+    font-size: 20px;
 }
 
 .ProfilePicture img{
@@ -22,4 +17,53 @@ body {
     height: 200px;
     border-radius: 50%;
     border: 2px solid black;
+}
+
+.About-Me_Sub-Heading {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.About-Me_Text {
+    font-size: 20px;
+}
+
+.SocialMedia_Sub-Heading {
+    text-decoration: underline;
+}
+
+
+
+.btn-Socialmedia {
+	width: 100%;
+	height: 100px;
+	float: left;
+	position:relative; 
+	font-size: 40px;
+}
+
+
+.buttonTwitter {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
+.buttonYoutube {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
+.buttonTwitch {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
+.buttonSteam {width: 10%;height: 100px;float: center;position:relative; font-size: 40px;}
+
+.buttonTwitter:hover{
+	background-color: #000000;
+	color: #1DA1F2;
+}
+	
+.buttonYoutube:hover{
+	background-color: #000000;
+	color: #FF0000;
+}
+	
+.buttonTwitch:hover{
+	background-color: #000000;
+	color: #6441a5;
+}
+	
+.buttonSteam:hover{
+	background-color: #000000;
+	color: white;
 }
