@@ -23,11 +23,22 @@ body {
 .AboutMeImage img{
     height: 100px;
     width: 200px;
+    position: relative;
+    top: 15px;
 }
 
 .Dev-BlogImage img{
+    position: relative;
+    top: 30px;
     height: 100px;
     width: 200px;
+}
+
+.NewsImage img{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 45px;
 }
 
 .SocialMedia_Sub-Heading {
@@ -35,6 +46,8 @@ body {
     text-shadow: 2px 2px black;
     text-decoration: underline;
     position: relative;
+    position: relative;
+    top: 30px;
 }
 
 .buttonTwitter {transform: rotate(-30deg);width: 80px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
