@@ -3,6 +3,7 @@ body {
     color: white;
     text-align: center;
     margin: 0;
+    overflow-y: hidden;
 }
 
 .Header {
@@ -19,25 +20,23 @@ body {
     border: 2px solid black;
 }
 
-.AboutImage img{
+.AboutMeImage img{
     height: 100px;
-    width: 100px;
-}
-
-.ButtonImage1 img:hover {
-    height: 100px;
-    width: 100px;
+    width: 200px;
 }
 
 .SocialMedia_Sub-Heading {
+    font-size: 40px ;
     text-shadow: 2px 2px black;
+    text-decoration: underline;
+    position: relative;
 }
 
-.buttonTwitter {width: 80px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
-.buttonYoutube {width: 100px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
-.buttonTwitch {width: 120px;height: 90px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
-.buttonSteam {width: 90px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
-.buttonGithub {width: 70px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;bottom: 10px;}
+.buttonTwitter {transform: rotate(-30deg);width: 80px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
+.buttonYoutube {width: 100px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
+.buttonTwitch {transform: rotate(-15deg);width: 120px;height: 90px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
+.buttonSteam {transform: rotate(15deg);width: 90px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
+.buttonGithub {width: 70px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
 
 .buttonTwitter:hover{
 	background-color: #000000;
