@@ -2,13 +2,17 @@ body {
     background-color: #181818;
     color: white;
     text-align: center;
-    margin: 5;
-    overflow-y: hidden;
+    margin: 10px;
+    overflow-x: hidden;
+    font-family: "Lucida Console", "Courier New", "monospace";
+    box-sizing: border-box;
 }
 
-.Header img{
-    height: 100px;
-    width: 300px;
+.Header {
+    font-size: 60px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
 }
 
 .ProfilePicture img{
@@ -18,41 +22,41 @@ body {
     border: 2px solid black;
 }
 
-.AboutMeImage img{
-    height: 100px;
-    width: 200px;
-    position: relative;
-    top: 15px;
-}
-
-.Dev-BlogImage img{
-    position: relative;
-    top: 30px;
-    height: 100px;
-    width: 200px;
-}
-
-.NewsImage img{
-    height: 100px;
-    width: 200px;
-    position: relative;
-    top: 45px;
-}
-
-.SocialMedia_Sub-Heading {
-    font-size: 40px ;
+.AboutMeSubHeading a{
+    color: white;
+    font-size: 50px;
     text-shadow: 2px 2px black;
-    text-decoration: underline;
     position: relative;
-    position: relative;
-    top: 30px;
+    top: 25px;
+    text-decoration: none;
 }
 
-.buttonTwitter {transform: rotate(-30deg);width: 80px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonYoutube {width: 100px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonTwitch {transform: rotate(-15deg);width: 120px;height: 90px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonSteam {transform: rotate(15deg);width: 90px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonGithub {width: 70px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
+.DevBlogSubHeading {
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: 50px;
+}
+
+.NewsSubHeading {
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: 75px;
+}
+
+.SocialMediaSubHeading {
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: 100px;
+}
+
+.buttonTwitter {transform: rotate(-30deg);width: 80px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:100px;}
+.buttonYoutube {width: 100px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:100px;}
+.buttonTwitch {transform: rotate(-15deg);width: 120px;height: 90px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:100px;}
+.buttonSteam {transform: rotate(15deg);width: 90px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:100px;}
+.buttonGithub {width: 70px;height: 100px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:100px;}
 
 .buttonTwitter:hover{
 	background-color: #000000;
