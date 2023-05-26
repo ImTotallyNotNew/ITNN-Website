@@ -2,15 +2,13 @@ body {
     background-color: #181818;
     color: white;
     text-align: center;
-    margin: 0;
+    margin: 5;
     overflow-y: hidden;
 }
 
-.Header {
-    font-size: 60px;
-    padding-bottom: 10px;
-    text-decoration: underline;
-    text-shadow: 2px 2px black;
+.Header img{
+    height: 100px;
+    width: 300px;
 }
 
 .ProfilePicture img{
