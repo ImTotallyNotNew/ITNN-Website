@@ -19,9 +19,9 @@ body {
     border: 2px solid black;
 }
 
-.ButtonImage1 img{
-    height: 90px;
-    width: 90px;
+.AboutImage img{
+    height: 100px;
+    width: 100px;
 }
 
 .ButtonImage1 img:hover {
