@@ -1,16 +1,13 @@
 body {
-    background-color: #181818;
+    background-color: #181818ce;
     color: white;
     text-align: center;
-    margin: 10px 10px 10px 10px;
-    overflow-x: hidden;
+    overflow: auto;
     font-family: "Lucida Console", "Courier New", "monospace";
-    box-sizing: border-box;
 }
 
 .Header {
     font-size: 60px;
-    padding-bottom: 10px;
     text-decoration: underline;
     text-shadow: 2px 2px black;
 }
@@ -26,8 +23,6 @@ body {
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px black;
-    position: relative;
-    top: 25px;
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -35,16 +30,35 @@ body {
 .AboutMeText{
     color: white;
     font-size: 20px;
-    position: relative;
-    top: 25px;
+}
+
+.ExcitedGameSubHeading {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.ExcitedGameText {
+    color: white;
+    font-size: 20px;
+}
+
+hr.PROTOBREAK {
+    border: 3px solid black;
+}
+
+.PROTOTitle H{
+    text-decoration: underline;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
 }
 
 .AboutPROTOSubHeading{
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px black;
-    position: relative;
-    top: 25px;
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -52,16 +66,12 @@ body {
 .AboutPROTO{
     color: white;
     font-size: 20px;
-    position: relative;
-    top: 25px;
 }
 
 .PROTOCuteSubHeading{
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px black;
-    position: relative;
-    top: 25px;
     text-decoration: underline;
     text-transform: uppercase;
 }
@@ -69,32 +79,23 @@ body {
 .PROTOCuteText{
     color: white;
     font-size: 20px;
-    position: relative;
-    top: 25px;
 }
 
 .PROTOImage img{
-    background-color: grey;
-    position: relative;
-    top: 25px;
-    border-radius: 50%;
-    border: 2px solid black;
 }
 
 .SocialMediaSubHeading {
     font-size: 30px;
     text-shadow: 2px 2px black;
-    position: relative;
-    top: 40px;
     text-decoration: underline;
     text-transform: uppercase;
 }
 
-.buttonTwitter {width: 80px;height: 60px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:50px;}
-.buttonYoutube {width: 100px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:50px;}
-.buttonTwitch {width: 120px;height: 90px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:50px;}
-.buttonSteam {width: 90px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:50px;}
-.buttonGithub {width: 70px;height: 60px;float: center;position:relative; font-size: 40px;border: 2px solid black;top:50px;}
+.buttonTwitter {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top: 5px;}
+.buttonYoutube {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top: 5px;}
+.buttonTwitch {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top: 5px;}
+.buttonSteam {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top: 5px;}
+.buttonGithub {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;top: 5px;}
 
 .buttonTwitter:hover{
 	background-color: #000000;
