@@ -2,70 +2,12 @@ body {
     background-color: #181818;
     color: white;
     text-align: center;
-    overflow: auto;
     font-family: "Lucida Console", "Courier New", "monospace";
 }
 
 .Header {
+    margin-top: 30px;
     font-size: 40px;
     font-size: 6vh;
     text-decoration: underline;
-}
-
-.container{
-    width: 90%;
-    height: 700px;
-    margin: 0 auto;
-}
-
-.item{
-    width: 400px;
-    height: 350px;
-    font-weight: 400;
-    color: white;
-    text-align: center;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.PROTOImage img{
-    background-color: rgba(255, 255, 255, 0.192);
-    border-radius: 50%;
-    border: 2px solid white;
-}
-
-.buttonTwitter {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonYoutube {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonTwitch {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonSteam {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-.buttonGithub {width: 80px;height: 80px;float: center;position:relative; font-size: 40px;border: 2px solid black;}
-
-.buttonTwitter:hover{
-	background-color: #000000;
-	color: #1DA1F2;
-}
-	
-.buttonYoutube:hover{
-	background-color: #000000;
-	color: #FF0000;
-}
-	
-.buttonTwitch:hover{
-	background-color: #000000;
-	color: #6441a5;
-}
-	
-.buttonSteam:hover{
-	background-color: #000000;
-	color: white;
-}
-
-.buttonGithub:hover{
-	background-color: #000000;
-	color: white;
 }
