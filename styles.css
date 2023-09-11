@@ -11,3 +11,14 @@ body {
     font-size: 6vh;
     text-decoration: underline;
 }
+
+.SubHeading {
+    font-size: 20px;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+
+.Text{
+    margin-right: 30px;
+    margin-left: 30px;
+}
