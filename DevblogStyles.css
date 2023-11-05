@@ -1,0 +1,86 @@
+body {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    margin: 5;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+
+.Header {
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+}
+
+.ProtoGameSubHeading p{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+
+
+.AboutPROTOSubHeading{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.AboutPROTO{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding: 0 60px;
+}
+
+.PROTOCuteSubHeading{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.PROTOCuteText{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding: 0 60px;
+}
+
+
+.PROTOImage img{
+    background-color: grey;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid black;
+}

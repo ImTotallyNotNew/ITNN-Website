@@ -1,0 +1,78 @@
+body {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    margin: 5;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+
+.Header {
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+}
+
+.FirstParagraph p{
+    font-size: 20px;
+    padding: 0 60px;
+}
+
+.Games_Header {
+    text-decoration: underline;
+}
+
+.TV_Header {
+    text-decoration: underline;
+}
+
+.Movies_Header {
+    text-decoration: underline;
+}
+
+.Games ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.Movies ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.TV_Anime ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
