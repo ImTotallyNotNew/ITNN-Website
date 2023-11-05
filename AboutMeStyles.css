@@ -56,23 +56,36 @@ body {
     text-decoration: underline;
 }
 
-.Games ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+.Lists h{
+    text-decoration: underline;
+    font-size: 30;
 }
 
-.Movies ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+.list-container {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    padding: 10px 10px;
 }
 
-.TV_Anime ul{
-    list-style-type: none;
+.list {
+    list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
+    width: 1000px;
+    background-color: #181818;
+    margin-right: 10px;
+}
+
+.list h{
+    font-size: 20px;
+}
+
+.CurrentlyPlaying h{
+    text-decoration: underline;
+    font-size:20px;
+}
+
+.PlayingPicture img{
+    height: 200px;
+    width: 50%;
 }

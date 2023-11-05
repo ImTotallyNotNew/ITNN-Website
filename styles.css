@@ -3,8 +3,6 @@ body {
     color: white;
     text-align: center;
     margin: 5;
-    overflow-y: hidden;
-    overflow-x: hidden;
     box-sizing: border-box;
 }
 
