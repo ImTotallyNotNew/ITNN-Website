@@ -56,7 +56,7 @@ body {
     text-decoration: underline;
 }
 
-.Lists h{
+.Lists{
     text-decoration: underline;
     font-size: 1.5em;
 }
@@ -74,13 +74,10 @@ body {
     width: 1000px;
     background-color: #181818;
     margin-right: 10px;
-}
-
-.list h{
     font-size: 1.5em;
 }
 
-.CurrentlyPlaying h{
+.CurrentlyPlaying{
     text-decoration: underline;
     font-size:1.5em;
 }
