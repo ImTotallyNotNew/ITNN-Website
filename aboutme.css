@@ -20,7 +20,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
   }
   
   .topnav a:hover {
@@ -34,13 +34,13 @@ body {
   }
 
 .Header {
-    font-size: 60px;
+    font-size: 2em;
     text-decoration: underline;
     text-shadow: 2px 2px black;
 }
 
 .FirstParagraph p{
-    font-size: 20px;
+    font-size: 1.5em;
     padding: 0 60px;
 }
 
@@ -58,7 +58,7 @@ body {
 
 .Lists h{
     text-decoration: underline;
-    font-size: 30;
+    font-size: 1.5em;
 }
 
 .list-container {
@@ -77,12 +77,12 @@ body {
 }
 
 .list h{
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .CurrentlyPlaying h{
     text-decoration: underline;
-    font-size:20px;
+    font-size:1.5em;
 }
 
 .PlayingPicture img{

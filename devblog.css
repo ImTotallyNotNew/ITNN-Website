@@ -19,7 +19,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
   }
   
   .topnav a:hover {
@@ -33,21 +33,21 @@ body {
   }
 
 .Header {
-    font-size: 60px;
+    font-size: 2em;
     text-decoration: underline;
     text-shadow: 2px 2px black;
 }
 
 .ProtoGameSubHeading p{
     color: white;
-    font-size: 20px;
+    font-size: 2em;
     text-shadow: 2px 2px black;
 }
 
 
 .AboutPROTOSubHeading{
     color: white;
-    font-size: 30px;
+    font-size: 2em;
     text-shadow: 2px 2px black;
     position: relative;
     text-decoration: underline;
@@ -56,14 +56,14 @@ body {
 
 .AboutPROTO{
     color: white;
-    font-size: 20px;
+    font-size: 1.5em;
     position: relative;
     padding: 0 60px;
 }
 
 .PROTORevealSubHeading{
     color: white;
-    font-size: 30px;
+    font-size: 2em;
     text-shadow: 2px 2px black;
     position: relative;
     text-decoration: underline;
@@ -71,7 +71,7 @@ body {
 }
 .PROTORevealText{
     color: white;
-    font-size: 20px;
+    font-size: 1.5em;
     position: relative;
     padding: 0 60px;
 }
@@ -85,7 +85,7 @@ body {
 
 .PROTODevelopmentSubHeading{
     color: white;
-    font-size: 30px;
+    font-size: 2em;
     text-shadow: 2px 2px black;
     position: relative;
     text-decoration: underline;
@@ -94,14 +94,14 @@ body {
 
 .PROTODevelopmentText{
     color: white;
-    font-size: 20px;
+    font-size: 1.5em;
     position: relative;
     padding: 0 60px;
 }
 
 .PROTOVideoSubHeading{
     color: white;
-    font-size: 30px;
+    font-size: 2em;
     text-shadow: 2px 2px black;
     position: relative;
     text-decoration: underline;
