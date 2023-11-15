@@ -61,7 +61,7 @@ body {
     padding: 0 60px;
 }
 
-.PROTOCuteSubHeading{
+.PROTORevealSubHeading{
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px black;
@@ -69,17 +69,32 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
 }
-.PROTOCuteText{
+.PROTORevealText{
     color: white;
     font-size: 20px;
     position: relative;
     padding: 0 60px;
 }
 
-
 .PROTOImage img{
     background-color: lightskyblue;
     position: relative;
     border-radius: 50%;
     border: 2px solid black;
+}
+
+.PROTODevelopmentSubHeading{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    position: relative;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.PROTODevelopmentText{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    padding: 0 60px;
 }
